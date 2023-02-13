@@ -1,0 +1,3 @@
+MONGODB_URL=mongodb+srv://seun2322:seun2322@betanews-ydtvl.mongodb.net/test?retryWrites=true
+JWT_SECRET=somethingsecret
+PAYPAL_CLIENT_ID=db
