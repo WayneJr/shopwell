@@ -6,7 +6,7 @@ import { getUserInfo } from './localStorage.js';
 export const getProducts = async ({ searchKeyword = '' }) => {
   try {
     let queryString = '?';
-    if (searchKeyword) queryString += `searchKeyword=${searchKeyword}&`;
+    if (searchKeyword) queryString += `searchKeyword=${searchKeyword}`;
     const options = {
       url: `${apiUrl}/api/products${queryString}`,
       method: 'GET',
@@ -85,7 +85,6 @@ export const createProduct = async () => {
     return { error: err.message };
   }
 };
-
 
 export const uploadProductImage = async (bodyFormData) => {
   const options = {
