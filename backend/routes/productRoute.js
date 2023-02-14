@@ -12,8 +12,12 @@ router.get(
     const searchKeyword = req.query.searchKeyword
       ? {
           $or: [
-            { name: req.query.searchKeyword },
             { category: req.query.searchKeyword },
+            { name: {
+                $regex: req.query.searchKeyword,
+                $options: 'i',
+              }
+            }
           ],
         }
       : {};

@@ -32,8 +32,7 @@ export default {
       image: '/images/product-4.jpg',
       price: 90,
       brand: 'Under Armour',
-
-    countInStock: 6,
+      countInStock: 6,
     },
     {
       _id: '5',
@@ -42,8 +41,7 @@ export default {
       image: '/images/product-5.jpg',
       price: 119,
       brand: 'Champion',
-
-    countInStock: 6,
+      countInStock: 6,
     },
     {
       _id: '6',

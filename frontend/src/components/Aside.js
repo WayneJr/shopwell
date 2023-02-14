@@ -27,7 +27,7 @@ const Aside = {
       </li> 
       <li>
         <a href="/#/?q=snacks"
-          >Meat & Poultry
+          >Snacks
           <span><i class="fa fa-chevron-right"></i></span>
         </a>
       </li> 

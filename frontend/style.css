@@ -74,7 +74,7 @@ button.primary {
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #126ce3;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -94,7 +94,7 @@ header {
   padding: 1rem;
 }
 .header-links a:hover {
-  color: #ff8000;
+  color: #000000;
 }
 
 /* Search */
@@ -179,7 +179,7 @@ main {
 }
 footer {
   grid-area: footer;
-  background-color: #203040;
+  background-color: #126ce3;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -188,9 +188,7 @@ footer {
 a {
   text-decoration: none;
 }
-a:hover {
-  color: #ff8000;
-}
+
 
 /* Products */
 .products {

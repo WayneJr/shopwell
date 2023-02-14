@@ -1,14 +1,13 @@
 /* eslint-disable indent */
 import {
   parseRequestUrl,
-  showLoading,
-  showMessage,
-  rerender,
-  hideLoading,
+  // showLoading,
+  // showMessage,
+  // rerender,
+  // hideLoading,
 } from '../utils.js';
 import { getProduct } from '../api.js';
-//import Rating from '../components/Rating.js';
-import { getUserInfo } from '../localStorage.js';
+// import { getUserInfo } from '../localStorage.js';
 
 const ProductScreen = {
   after_render: async () => {
@@ -40,7 +39,7 @@ const ProductScreen = {
   render: async () => {
     const request = parseRequestUrl();
     const product = await getProduct(request.id);
-    const userInfo = getUserInfo();
+    // const userInfo = getUserInfo();
 
     return `
     <div>
