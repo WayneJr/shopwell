@@ -11,10 +11,10 @@ router.get(
     const category = req.query.category ? { category: req.query.category } : {};
     const searchKeyword = req.query.searchKeyword
       ? {
-          name: {
-            $regex: req.query.searchKeyword,
-            $options: 'i',
-          },
+          $or: [
+            { name: req.query.searchKeyword },
+            { category: req.query.searchKeyword },
+          ],
         }
       : {};
     const sortOrder = req.query.sortOrder

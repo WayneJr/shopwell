@@ -1,8 +1,8 @@
 {
   "eslint.enable": true,
-  "editor.lineNumbers": "off",
-  "editor.glyphMargin": false,
+  "editor.lineNumbers": "on",
+  "editor.glyphMargin": true,
   "editor.folding": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 12,
   "editor.wordWrap": "bounded"
 }
