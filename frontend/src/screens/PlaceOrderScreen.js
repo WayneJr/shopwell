@@ -105,7 +105,7 @@ const PlaceOrderScreen = {
                         </div>
                         <div>Qty: ${item.qty}</div>
                       </div>
-                      <div class="cart-price">$ ${item.price}</div>
+                      <div class="cart-price">₦ ${item.price}</div>
                     </li>`
                       )
                 }
