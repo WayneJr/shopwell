@@ -86,31 +86,6 @@ export const createProduct = async () => {
   }
 };
 
-export const createReview = async (productId, review) => {
-  const { token } = getUserInfo();
-  const options = {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`,
-    },
-    body: JSON.stringify(review),
-  };
-  try {
-    const response = await fetch(
-      `${apiUrl}/api/products/${productId}/reviews`,
-      options
-    );
-    const json = await response.json();
-    if (response.status !== 201) {
-      throw new Error(json.message);
-    }
-    return json;
-  } catch (err) {
-    console.log('Error in create review', err.message);
-    return { error: err.message };
-  }
-};
 
 export const uploadProductImage = async (bodyFormData) => {
   const options = {
