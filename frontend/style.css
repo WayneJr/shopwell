@@ -82,11 +82,19 @@ header {
   padding: 0.5rem;
 }
 
+.brand {
+  display: flex;
+  justify-content: space-between;
+}
+
 .brand a {
   color: #ffffff;
   font-size: 3rem;
   font-weight: bold;
   text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 1vw;
 }
 .header-links a {
   color: #ffffff;
@@ -96,6 +104,17 @@ header {
 .header-links a:hover {
   color: #000000;
 }
+
+/* Logo */
+.logo-div {
+  display: flex;
+  justify-content: space-between;  
+}
+.fit-picture {
+  width: 10%;
+  padding-bottom: 1vh;
+}
+
 
 /* Search */
 .search {
@@ -187,6 +206,7 @@ footer {
 }
 a {
   text-decoration: none;
+  padding-top: 1vh;
 }
 
 
