@@ -241,7 +241,7 @@ a:hover {
 .product-price span {
   font-size: 1.2rem;
 }
-
+/*
 .review {
   list-style-type: none;
   padding: 0;
@@ -250,7 +250,7 @@ a:hover {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
-/* Sidebar */
+ Sidebar */
 
 .brand button {
   font-size: 3rem;
@@ -601,7 +601,7 @@ td {
 .categories a:hover {
   background-color: #c0c0c0;
 }
-
+/*
 .rating span {
   color: #ffb901;
   font-size: 1.8rem;
@@ -610,7 +610,7 @@ td {
   color: #444444;
   font-size: 1.4rem;
 }
-/* Serach */
+ Serach */
 
 /* Style the search field */
 form.example input[type='text'] {

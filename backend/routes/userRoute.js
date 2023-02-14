@@ -78,8 +78,8 @@ router.get(
   asyncHandler(async (req, res) => {
     try {
       const user = new User({
-        name: 'Basir',
-        email: 'basir.jafarzadeh@gmail.com',
+        name: 'Michael',
+        email: 'mike111@gmail.com',
         password: '1234',
         isAdmin: true,
       });

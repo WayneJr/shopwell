@@ -1,6 +1,6 @@
 import { getProducts } from '../api.js';
 import { parseRequestUrl } from '../utils.js';
-import Rating from '../components/Rating.js';
+//import Rating from '../components/Rating.js';
 
 const HomeScreen = {
   render: async () => {
@@ -26,12 +26,6 @@ const HomeScreen = {
                   </a>
                   <div class="product-name">
                     <a href="#/product/${product._id}">${product.name}</a>
-                  </div>
-                  <div class="product-rating">
-                  ${Rating.render({
-                    value: product.rating,
-                    text: `${product.numReviews} reviews`,
-                  })}
                   </div>
                   <div class="product-brand">${product.brand}</div>
                   <div class="product-price">₦${product.price}</div>
