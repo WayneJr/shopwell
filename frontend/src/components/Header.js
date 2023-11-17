@@ -35,14 +35,16 @@ const Header = {
     const { name, isAdmin } = getUserInfo();
     if (name) {
       if (isAdmin) {
-        document.getElementById("header-links").innerHTML = `
+        document.getElementById('header-links').innerHTML = `
         <a href="/#/profile">${name}</a>
         <a href="/#/cart">Cart</a>
-        <a href="/#/dashboard">Dashboard</a> `;
+        <a href="/#/dashboard">Dashboard</a> 
+        <a href="/#/errands">Errands</a>`;
       } else {
-        document.getElementById("header-links").innerHTML = `
+        document.getElementById('header-links').innerHTML = `
         <a href="/#/profile">${name}</a>
-        <a href="/#/cart">Cart</a>`;
+        <a href="/#/cart">Cart</a>
+        <a href="/#/errands">Errands</a>`;
       }
     }
     document

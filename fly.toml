@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for uiventures-be on 2023-11-15T13:14:25+01:00
+# fly.toml app configuration file generated for uiventures-be on 2023-11-17T12:41:20+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -6,16 +6,11 @@
 app = "uiventures-be"
 primary_region = "ams"
 
-#[build]
-  #image = "waynejr/shopwell-back"
-
-[env]
-  JWT_SECRET = "somethingsecret"
-  MONGODB_URL = "mongodb+srv://bishop:bishop@restfulcluster.creso.mongodb.net/shopwell?retryWrites=true&w=majority"
-  PAYPAL_CLIENT_ID = "db"
+[build]
+   builder = "heroku/buildpacks:20"
 
 [http_service]
-  internal_port = 8080
+  internal_port = 4000
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true

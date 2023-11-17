@@ -8,32 +8,20 @@ const Aside = {
   <div class="aside-body">
     <ul class="categories">
       <li>
-        <a href="/#/?q=beverages"
-          >Beverages
+        <a href="/#/?q=restaurant"
+          >Restaurant
           <span><i class="fa fa-chevron-right"></i></span>
         </a>
       </li>
       <li>
-        <a href="/#/?q=meat and poultry"
-          >Meat & Poultry
+        <a href="/#/?q=bakery"
+          >Bakery
           <span><i class="fa fa-chevron-right"></i></span>
         </a>
       </li> 
       <li>
-        <a href="/#/?q=packaged"
-          >Packaged Products
-          <span><i class="fa fa-chevron-right"></i></span>
-        </a>
-      </li> 
-      <li>
-        <a href="/#/?q=snacks"
-          >Snacks
-          <span><i class="fa fa-chevron-right"></i></span>
-        </a>
-      </li> 
-      <li>
-        <a href="/#/?q=toiletries"
-          >Toiletries
+        <a href="/#/?q=drinks"
+          >Drinks
           <span><i class="fa fa-chevron-right"></i></span>
         </a>
       </li> 
@@ -49,5 +37,7 @@ const Aside = {
       });
   },
 };
+
+
 
 export default Aside;
