@@ -74,7 +74,8 @@ button.primary {
 }
 header {
   grid-area: header;
-  background-color: #126ce3;
+  background-color: #1D1C1D;
+  opacity: 0.9;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -198,7 +199,8 @@ main {
 }
 footer {
   grid-area: footer;
-  background-color: #126ce3;
+  background-color: #1D1C1D;
+  opacity: 0.9;
   color: #ffffff;
   display: flex;
   justify-content: center;
